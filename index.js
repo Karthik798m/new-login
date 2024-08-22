@@ -7,6 +7,7 @@ document.querySelector(".btn1").addEventListener('click',function()
     document.querySelector('.div1').classList.toggle('active2')
     document.querySelector('.box1').classList.toggle('pop')
     document.querySelector('.box2').classList.toggle('pop')
+    document.querySelector('.container').classList.toggle('shadowcolor')
 })
 
 
