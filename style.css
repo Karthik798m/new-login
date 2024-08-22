@@ -1,0 +1,165 @@
+body{
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: Open Sans;
+}
+
+*{
+    color: black;
+}
+
+.container{
+    position:absolute;
+    height:60vh;
+    width:600px;
+    background-color: aliceblue;
+    display:flex;
+    border-radius: 50px;
+}
+
+.box1{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box2{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle{
+    display:flex;
+    position: relative;
+    
+    height:60vh;
+    width:600px;
+}
+
+.div1{
+    width:50%;
+    background-color: blueviolet;
+    opacity:0;
+    border-radius: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.div1 > p{
+    color:white;
+    font-size: 30px;
+    font-family: Matemasie;
+}
+
+.btn1{
+    margin-right: 50px;
+    height:30px;
+    color:white;
+    background-color: transparent;
+    border:5px solid white;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.div2{
+    width:50%;
+    
+}
+
+button{
+    margin-left:50px
+}
+
+.active1{
+    opacity:1;
+    background-color: blueviolet;
+    transform: translateX(100%);
+    animation: moveback 0.6s;
+    transition: 0.2s;
+}
+.active2{
+    transform: translateX(0%);
+    background-color: red;
+    animation: move 0.6s;
+    transition: 0.2s;
+}
+@keyframes move{
+    0%{
+        transform:translateX(100%)
+    }
+    
+    
+    100%{
+        transform:translateX(0%)
+    }
+}
+@keyframes moveback{
+    0%{
+        transform:translateX(0%)
+    }
+    
+    
+    100%{
+        transform:translateX(100%);
+    }
+
+    
+}
+
+@keyframes fade{
+    0%{
+        opacity:0 ;
+    }
+
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.pop{
+    z-index: 1;
+    animation: fade 0.6s;
+}
+
+input{
+    width:90%;
+    margin:10px;
+    margin-top:20px;
+    height:30px;
+    outline:0;
+    border:0;
+    background-color:rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.si{
+    border:0;
+    background-color: blueviolet;
+    border-radius:10px;
+    height: 30px;
+    color:white;
+    margin-right:30px;
+}
+.su{
+    border:0;
+    background-color: red;
+    border-radius:10px;
+    height: 30px;
+    color:white;
+    margin-right:30px;
+}
