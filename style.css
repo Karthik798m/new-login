@@ -176,3 +176,12 @@ input{
 .btn1{
     height:fit-content
 }
+
+@media (min-height:896px) {
+    .container{
+        height:40vh;
+    }
+    .toggle{
+        height:4vh;
+    }
+}
