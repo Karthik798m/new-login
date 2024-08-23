@@ -18,7 +18,7 @@ body{
     display:flex;
     border-radius: 50px;
     box-shadow: 0 0 20px 5px blueviolet;
-    transition: 0.2s;
+    transition: 0.7s;
 }
 
 .box1{
@@ -166,5 +166,9 @@ input{
 }
 .shadowcolor{
     box-shadow: 0 0 20px 5px red;
-    transition: 0.2s;
+    transition: 0.7s;
+}
+
+.enlarge{
+    transform: scale(110%);
 }

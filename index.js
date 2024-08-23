@@ -22,3 +22,7 @@ function swap() {
     x.innerHTML = "Sign Up";
   }
 }
+
+if(document.querySelector('.in1').value!==''){
+  document.querySelector('.si').classList.add('enlarge')
+}
