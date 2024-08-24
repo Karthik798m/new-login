@@ -13,7 +13,7 @@ body{
 .container{
     position:absolute;
     height:60vh;
-    width:70%;
+    width:50%;
     background-color: aliceblue;
     display:flex;
     border-radius: 50px;
@@ -43,7 +43,7 @@ body{
     position: relative;
     
     height:60vh;
-    width:72.8%;
+    width:51.89%;
 }
 
 .div1{
@@ -177,11 +177,3 @@ input{
     height:fit-content
 }
 
-@media (min-height:896px) {
-    .container{
-        height:40vh;
-    }
-    .toggle{
-        height:4vh;
-    }
-}
